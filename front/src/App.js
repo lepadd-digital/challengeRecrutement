@@ -12,6 +12,7 @@ function Success() {
     )
 }
 
+
 function App() {
     const [data, setData] = useState(undefined) //DO NOT TOUCH
     const [currencyPrice, setCurrencyPrice] = useState([]) //DO NOT TOUCH
@@ -33,12 +34,14 @@ function App() {
         parseData(response.data);
     }
 
-    //warning here for challenge purpose only
-    useEffect(() => { //DO NOT TOUCH
-        if (data) //DO NOT TOUCH
-            setIsSuccess(true) //DO NOT TOUCH
-    }, [currencyPrice]) //DO NOT TOUCH
-
+    //DO NOT TOUCH THIS PART ////////////////////
+    useEffect(() => {                    //
+        if (currencyPrice.length) {            //
+            console.log("Success Validated")   //
+            setIsSuccess(true)           //
+        }                                      //
+    }, [currencyPrice])                  //
+    ////////////////////////////////////////////
     return (
         <Grid>
             {!!isSuccess /* <= DO NOT TOUCH */ && <Success/>}
