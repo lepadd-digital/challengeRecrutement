@@ -2,7 +2,7 @@
 <h1>
 Bienvenue sur le Challenge LEPADD
 </h1>
-Si vous avez passé la première step, ajoutez une étoile :)
+Si vous avez passé la première step de challenge.lepadd.com, ajoutez une étoile :)
 
 
 <h3>Il faut réparer ce code.</h3>
