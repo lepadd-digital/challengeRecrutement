@@ -11,7 +11,7 @@ Si vous avez passé la première step, ajoutez une étoile :)
 Beaucoup de notions nouvelles et différentes du C sont abordées.
 
 
-Allez aussi loin que pouvez... !
+Allez aussi loin que vous pouvez... !
 
 
 Règles :
